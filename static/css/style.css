@@ -1,0 +1,371 @@
+
+*{box-sizing: border-box;}
+
+body {
+  background-color: #161a1f;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+.left-container {
+  width: 50%;
+}
+
+.logo-wrap {
+   max-width: 80%;
+   margin: 30px auto 0;
+  }
+
+  .header-wrap {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    min-height: 490px;
+   min-height: 100vh;
+}
+
+.header-wrap .logo-wrap img{
+  color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+     max-width: 138px; 
+}
+
+.header-text {
+  width: 100%;
+  margin-left: 0;
+  text-align: left;
+}
+
+.header-text h1 {
+  color: white;
+  margin-top: 55px;
+  text-align: left;
+  font-size: 6vh;
+}
+
+.header-text p {
+  color: white;
+  text-align: left;
+  font-size: 2.5vh;
+  font-weight: 300;
+  line-height: 3.5vh;
+}
+
+.btn-1 {
+  width: auto;
+  font-family: inherit;
+  height: 48px;
+  font-size: 2vh;
+  padding: 1vh 3vh;
+  margin-top: 2vh;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+.btn-1:hover{
+    background-color: #d4d8d8;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+  }
+
+.right-container {
+  width: 50%;
+}
+
+.header-wrap .right-container .img-cycling img {
+  width: 100%;
+  float:right;
+  height: 100%;
+  object-fit: cover;
+}
+  
+/*banner-section*/
+section {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 50px 70px;
+}
+
+.banner{
+  max-height: none;
+    background-image: url(../images/bg-cycling.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-section {
+  background-color: #ffffffd9;
+  opacity: 88%; 
+  min-height: 80vh;
+  min-width: 100%;
+  font-family: "Roboto", sans-serif;
+  padding: 45px 40px 60px;
+}
+
+.banner-section p{
+  color: black;
+  margin-top: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.banner-section h2 {
+  margin-bottom: 0px;
+}
+.form-gpt {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-gpt textarea {
+  width: 100%;
+  padding: 15.5px 24px;
+  font-size: 16px;
+}
+
+.btn-submit {
+  margin-top: 30px;
+  font-family: inherit;
+  font-size: 17px;
+  background-color: #161a1f;
+  border-width: 2px;
+  border-color: transparent;
+  color: #fff;
+  height: 48px;
+  width: 131px;
+}
+.btn-submit:hover{
+     background-color:#363a3a;
+   box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+   }
+.connect-strava-btn{
+  margin-top: 25px;
+  margin-left: -9px;
+}
+
+.answers {
+  color: black;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-top: 20px;
+  text-align: justify;
+  white-space: pre-line; /* This will ensure that sentences can break onto new lines */
+  width: 766px; /* Align with the form width */
+}
+
+/** Form CSS **/
+.form-enquiry-section{
+  background-image: url(../images/swiming.jpg);
+  max-height: none;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 0px;
+}
+
+.form-enquiry {
+  text-align: center;
+  background: #161a1fcf;
+  opacity: 88%;
+  margin-top: 0;
+  padding: 40px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.form-enquiry
+ h2 {
+    color:white;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size:63px;
+    line-height: 1.2;
+    letter-spacing: -0.00833em;
+    text-align: center;
+    margin-top:0;
+    margin-bottom: 0px;
+}
+
+.form-enquiry
+p{
+  color:white;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+	font-weight: 400;
+    font-size: 22px;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    text-align: center; 
+    margin-top: 8px;
+  }
+  form
+  .text {
+      font-family: "Roboto","Helvetica","Arial",sans-serif;
+      font-size: 19px;
+      background-color: #161a1f;
+      padding: 13px 12px;
+      text-decoration: none;
+      display: inline-block;
+      margin: 7px 80px;
+      width: 57%;
+      border: 1px solid #2e343c;
+      color: rgb(227, 240, 235);
+  }
+
+form text::-webkit-input-placeholder { /*Chrome/Opera/Safari*/
+  color: #999;
+}
+  
+ form text::-moz-placeholder { /* Firefox 19+ */
+    color: #999;
+ }
+  form text:-ms-input-placeholder {  /* IE 10+ */
+    color: #999;
+  }
+ form  :-moz-placeholder { /* Firefox 18- */
+    color: #999;
+  }
+ 
+.form-enquiry form input:focus,.form-enquiry form textarea:focus{
+  outline: none;
+  border-color:white;
+   }
+
+   form
+   .button:hover{
+     background-color: #d4d8d8;
+   box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+   }
+   
+   
+form .button {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 17px !important;
+  background-color: #ffffff;
+  border: none;
+  color: #161a1f;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+   margin: 10px 2px; 
+  cursor: pointer;
+  width: 57%;
+  height: 48px;
+}
+/*footer*/
+.content-footer{
+  color:white;
+  text-align: center;
+}
+/* Media Queries Start */
+/*extra-small devices*/
+@media only screen and (max-width:390px) {
+  .header-wrap .logo-wrap img {
+    max-width: 120px;
+}
+
+  .header-text h1 {
+    font-size: 4vh;
+}
+}
+@media only screen and (max-width:600px) {
+  .btn-1 {
+    height: 27px;}
+  form .button {
+    font-size: 24px;
+  }}
+
+/*small devices*/
+@media only screen and (min-width:600px) {
+  form .button {
+    font-size: 22px;
+  }}
+/*medium devices*/
+  @media only screen and (max-width:768px) {
+    .header-text h1 {
+      font-size: 4vh;
+  }
+  .btn-1 {
+    height: 56px;
+}
+  .form-enquiry h2 {
+    font-size: 37px;}
+    .form-enquiry p {
+      font-size: 13px;}
+      form .text {
+        margin: 7px 0px;
+        width: 100%;
+      }
+      form .button {
+        margin: 10px 1px;
+        width: 100%;
+      }
+      .content-footer {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+  .header-text h1 {
+    font-size: 3vh;
+}
+.header-text p {
+  font-size: 2vh;
+  line-height: 2.5vh;
+}
+.btn-1 {
+  height: 51px;
+  padding: 1vh 1vh;
+}}
+
+
+/* ... Your existing CSS ... */
+
+/* Modified CSS for .question-cloud */
+.question-cloud {
+  background: #f2f2f2;
+  border-radius: 15px;
+  padding: 9px;
+  position: absolute;
+  top: 155%; /* Adjust this percentage to lower the cloud into the vacant space */
+  left: 81.5%;
+  transform: translateX(-50%);
+  width: 60%;
+  max-width: 390px;
+  box-shadow: 0 8px 6px -6px grey;
+  z-index: 10; /* Adjust z-index if needed */
+}
+
+.question-cloud p {
+  font-size: 1.2em;
+  color: #161a1f;
+  text-align: center;
+  font-weight: bold;
+}
+
+.question-cloud ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.question-cloud li {
+  background: rgba(233, 233, 233, 0.1); /* Lighter list items with reduced opacity */
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 3px;
+  font-size: 1em;
+  color: #161a1f;
+  text-align: center;
+}
+
+/* ... Rest of your existing CSS ... */
