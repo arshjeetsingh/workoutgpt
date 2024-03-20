@@ -13,8 +13,8 @@ app.config['DEBUG'] = True
 
 # Strava API and OpenAI API credentials
 client_id = '120425'
-client_secret = 'c420fafcbd1d6f5f11e689852fff288b1bc166d2'
-openai_api_key = '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'
+client_secret = ''
+openai_api_key = ''
 
 # Set OpenAI API key for usage in the app
 openai.api_key = openai_api_key
